@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+<h1 align="center">Expression Engine  📝</h1>  
+## Objective
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Create a visually appealing web-based Expression Engine UI using Bootstrap and React.
 
-## Available Scripts
+You can view a live demo of the project here: https://ganeshkolekar4753.github.io/expression-engine/
 
-In the project directory, you can run:
+## Requirements
 
-### `npm start`
+### 1. Styling with Bootstrap
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Utilize Bootstrap to ensure the UI is responsive, visually appealing, and follows best practices in terms of design and layout.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Form Implementation
 
-### `npm test`
+Implement a user-friendly form that allows users to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   - Choose a connector type: AND/OR
+   - Input expressions with the following fields:
+      - Dropdown: Rule Type with values - Age, Credit Score, Account Balance
+      - Operator: >, <, ≥, ≤, =
+      - Value
+      - Score
 
-### `npm run build`
+### 3. Expression Management
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users should have the ability to:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   - Add new expressions dynamically.
+   - Delete existing expressions as needed.
+   - Update any expression (will reflect in JSON).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+1. **Clone the repository:**
+   git clone https://github.com/your-username/expression-engine.git
+2. **Navigate to the project directory:**
+   cd expression-engine-ui
+3. **Install dependencies:
+   npm install
+4. **Start the live server:**
+   npm start
+5. Open your web browser and go to http://localhost:3000 to view the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Web Expression Engine UI
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Expression Engine UI Screenshot](screenshots/screenshot.png)](https://ganeshkolekar4753.github.io/expression-engine/).
