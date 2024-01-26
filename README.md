@@ -43,5 +43,4 @@ Users should have the ability to:
 5. Open your web browser and go to http://localhost:3000 to view the application.
 
 ## Web Expression Engine UI
-
-[![Expression Engine UI Screenshot]( src/assets/screenshot.png)](https://ganeshkolekar4753.github.io/expression-engine/).
+![image](https://github.com/GaneshKolekar4753/expression-engine/blob/master/src/screenshot.png)
