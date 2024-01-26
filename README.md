@@ -44,4 +44,4 @@ Users should have the ability to:
 
 ## Web Expression Engine UI
 
-[![Expression Engine UI Screenshot](screenshots/screenshot.png)](https://ganeshkolekar4753.github.io/expression-engine/).
+[![Expression Engine UI Screenshot]( src/assets/screenshot.png)](https://ganeshkolekar4753.github.io/expression-engine/).
